@@ -12,6 +12,10 @@ print(round((8/3),1))
 print(round((8/3),2))
 # rounds off ABOVE code to 2 decimal place
 ```
+- Another way to round off two decimal
+```
+formatted_num="{:.2f}".format(num)
+```
 ## Shorthands
 - result=result/2 can be written as result/=2
 - also result=result+2 can be written as result+=2
