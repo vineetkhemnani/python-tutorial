@@ -149,3 +149,36 @@ Above output is
 - dirty_dozen=[fruits,vegetables] => 2 lists inside a list
 o/p- [['strawberries', 'Nectarines', 'Apples', 'Grapes', 'Peaches', 'Cherries', 'Pears'], ['Spinach', 'Kale', 'Tomatoes', 'Celery', 'Potatoes']]
 
+## Loops in Python
+### for loop
+```
+fruits=[
+	"apple",
+	"banana",
+	"cherry",]
+for fruit in fruits:
+	print(fruit)
+	print(fruit+" "+"pie")
+	print(fruits) #prints thrice coz indentation means inside loop
+print(fruits) #prints once coz outside loop
+```
+### for loop within range
+for number in range(a,b):
+	print(number)
+```
+for number in range(1,10):
+	print(number)
+```
+- Above code prints number from 1 to 9 (Excluding 10)
+
+- If you want to specify the step-size or increment size, you need to specify a 3rd parameter in range
+```
+for number in range(0,10,3):
+	print(number)
+```
+- Here "3" specifies the step size as in increment each time by 3
+- So the loop runs for 1,4,7 i.e. **three times**
+
+## Some more random functions
+- random.choice(list) - chooses a random element from the list
+- random.shuffle(list) - shuffles the contents of the list in random order
