@@ -4,3 +4,6 @@
 if "_" not in display:
 	has_ended = True
 ```
+
+## import from modules as variables
+- from hangman_art import logo,stages
