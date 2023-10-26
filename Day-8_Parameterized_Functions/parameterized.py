@@ -14,10 +14,12 @@
 
 
 name=input("Whats your name? ")
-def greet_with_input(name):
+location=input("Whats your location? ")
+def greet_with_input(name,location):
 	print(f"Hi {name}")
 	print(f"Hello {name}")
 	print(f"How you doing {name}")
+	print(f"Whats it like in {location}")
 
-greet_with_input(name)
+greet_with_input(name,location)
 
